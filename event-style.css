@@ -73,7 +73,7 @@ i .navigation-logo{
 }
 .card-title, .card-date{
   color:lightcoral;
-  font-family: jura, sans-serif;
+  font-family: 'jura', sans-serif;
 }
 
 .card-date{
@@ -89,6 +89,9 @@ i .navigation-logo{
   text-align: center;
 }
 
+.modal-title{
+  color:lightcoral;
+}
 
 
 /* Footer */

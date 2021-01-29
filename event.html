@@ -9,7 +9,57 @@
   <script src="https://kit.fontawesome.com/3d38d388a2.js"></script>  
 </head>
 <body>
-  <header>
+
+   <!-- Modal --> 
+   <div class="modal fade" id="MoreInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+       <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">To have more information</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="form-group">
+                <label for="lastname">Lastname</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Add your lastname">
+              </div>
+              <div class="form-group">
+                <label for="firstname">Firstname</label>
+                <input type="text" class="form-control" id="firstname" placeholder="Add your firstname">
+             </div>        
+             <div class="form-group">
+                <label for="mail">Mail</label>
+                <input type="mail" class="form-control" id="mail" placeholder="Add your mail address">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox"  id="check">
+                <label class="form-check-label" for="check">
+                    Male
+                </label>
+              </div>     
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox"  id="check">
+                <label class="form-check-label" for="check">
+                    Female
+                </label>
+              </div>
+              </br>
+              <div class="form-group">
+                <label for="comment">Comment</label>
+                <textarea class="form-control" id="comment" placeholder="Add your  comment"></textarea>
+              </div>    
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Suscribe</button>
+          </div>
+       </div>
+    </div>
+  </div>  
+
+  <!-- Content -->  
+
+  <header id="top">
     <div class="navigation-logo">
       <i class="fas fa-fish fa-3x logo"></i>
       <h2 class="navigation-text">mySHALOM</h2>
@@ -42,7 +92,7 @@
             The activities initially  covered bringing back to school dropout children with a potential whose single parents were too poor to pay for their school fees. Then it extended to looking after street children, providing them with lunch, clothes and school supplies.  Access to education seems impossible for them. Myriame holds a Bible school in her small yard for some 80 poor children in her suburb every Saturday except on the holidays after which they are provided a small brunch made up of rice with little fish and milk diluted with tea and Malagasy pancake. But over the years, Myriame  addressed providing care and a monthly pension support to elderly people left by themselves and forced to work at an advanced age to earn their living. She provides them with a token pension and some foodstuff every month.   
           </p>
           <div class="center-button">
-            <button class="btn btn-primary">More information</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#MoreInfo">More information</button>
           </div>
         </div>
       </article>
