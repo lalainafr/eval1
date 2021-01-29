@@ -67,37 +67,34 @@ i .navigation-logo{
 }
 
 /* Main */
+
 .site{
   background-color: #F1F1F1;
   padding: 20px;
 }
 
-.main-title{
+.site-title{
   color: lightcoral;
-  font-family: jura, sans-serif;
+  font-family: 'Jura', sans-serif;
 }
 
 .main-text{
   text-align: center;
 }
 
-.left-align{
-  text-align: start;
+.image-article{
+  width: 250px;
+  padding: 8px;
+  margin-left: 5x;
 }
 
-.credo{
-  color: rgba(205, 92, 92, 0.5);
+.site-image{
+  text-align: center;
 }
 
-.italic{
-  font-style: italic;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.main-image{
+.family{
   width: 100%;
-  padding: 5px 0;
-  margin: 15px 0;
+  padding: 10px 0;
 }
 
 /* Footer */
@@ -156,5 +153,14 @@ footer .bottom-footer a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .clear-float{
+    clear: both;
+  }
+  
+  .image-article{
+    float:right
+  
   }
 }
