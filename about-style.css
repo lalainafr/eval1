@@ -68,8 +68,34 @@ i .navigation-logo{
 
 /* Main */
 
-/* A REMPLIR */
+.site{
+  background-color: #F1F1F1;
+  padding: 20px;
+}
 
+.site-title{
+  color: lightcoral;
+  font-family: 'Jura', sans-serif;
+}
+
+.main-text{
+  text-align: center;
+}
+
+.image-article{
+  width: 250px;
+  padding: 8px;
+  margin-left: 5x;
+}
+
+.site-image{
+  text-align: center;
+}
+
+.family{
+  width: 100%;
+  padding: 10px 0;
+}
 
 /* Footer */
 footer{
@@ -127,5 +153,14 @@ footer .bottom-footer a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .image-article{
+    float:right
+
+  }
+
+  .clear-float{
+    clear: both;
   }
 }
