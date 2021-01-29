@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Lexend+Tera&display=swap');
+/*
+Fonts
+font-family: 'Jura', sans-serif;
+font-family: 'Lexend Tera', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/* General setting */
+html{
+  font-family: montserrat, sans-serif;
+  font-size: 16px;
+}
+
+/* Header */
+header{
+  display: block;
+  background-color: rgba(165, 42, 42, 0.8);
+  height: auto;
+  padding: 10px 25px;
+}
+
+header ul .icon{
+  color: rgba(250, 128, 114, 0.7);
+  margin-right: 5px;
+}
+
+.navigation-logo{
+  text-align: center;
+}
+
+.navigation-text{
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: lexend tera, sans-serif;
+}
+
+header .logo{
+  color: rgba(255, 255, 255, 0.2);
+}
+
+i .navigation-logo{
+  margin-right: 10px;
+  font-size: 40px;
+}
+
+.navigation-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation-link{
+  text-decoration: none;
+  color: rgba(255, 255 , 255, 0.5);
+}
+
+.navigation-link:hover,
+.navigation-item .active{
+  color: #FFF;
+  transition: 3s;
+}
+
