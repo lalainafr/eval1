@@ -66,6 +66,41 @@ i .navigation-logo{
   transition: 3s;
 }
 
+/* Main */
+.site{
+  background-color: #F1F1F1;
+  padding: 20px;
+}
+
+.main-title{
+  color: lightcoral;
+  font-family: jura, sans-serif;
+}
+
+.main-text{
+  text-align: center;
+}
+
+.left-align{
+  text-align: start;
+}
+
+.credo{
+  color: rgba(205, 92, 92, 0.5);
+}
+
+.italic{
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.main-image{
+  width: 100%;
+  padding: 5px 0;
+  margin: 15px 0;
+}
+
+
 /* Responsive for device more than 509px */
 @media screen and (min-width: 509px){
   header .navigation .navigation-list{
