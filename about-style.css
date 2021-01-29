@@ -155,12 +155,12 @@ footer .bottom-footer a:hover{
     align-items: center;
   }
 
-  .image-article{
-    float:right
-
-  }
-
   .clear-float{
     clear: both;
+  }
+  
+  .image-article{
+    float:right
+  
   }
 }
