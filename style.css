@@ -66,3 +66,30 @@ i .navigation-logo{
   transition: 3s;
 }
 
+/* Responsive for device more than 509px */
+@media screen and (min-width: 509px){
+  header .navigation .navigation-list{
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .navigation{
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation-item{
+    margin: 0 10px;
+  }
+
+}
+
+/* Responsive for device more than 780px */
+@media screen and (min-width: 780px){
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
