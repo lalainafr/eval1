@@ -89,6 +89,9 @@ i .navigation-logo{
   color:lightcoral;
 }
 
+.center-button{
+  text-align: center;
+}
 
 /* Footer */
 footer{
@@ -192,7 +195,4 @@ footer .bottom-footer a:hover{
     grid-area: card8;
   }
 
-  .center-button{
-    text-align: center;
-  }
 }
